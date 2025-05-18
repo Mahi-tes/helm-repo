@@ -21,7 +21,7 @@ resources:
       cpu: 1      
             
 bankapp:
-  image: adijaiswal/bankapp:v20
+  image: 1mahendra/bankapp:v12
   replicas: 2
   service:
     type: LoadBalancer          
