@@ -28,7 +28,7 @@ bankapp:
   resources:
     requests:
       memory: 256Mi
-      cpu: 250M
+      cpu: 250m
     limits:
       memory: 500Mi
       cpu: 500M
