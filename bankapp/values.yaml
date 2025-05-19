@@ -3,7 +3,7 @@ namespace: mahendra
 mysql:
   password: Test@123
   databasename: bankappdb
-  region: us-east-la  
+  region: us-east-1a  
   image: mysql:8
 
 persistentvolume:
