@@ -21,7 +21,6 @@ resources:
       cpu: 1      
             
 bankapp:
-  image: 1mahendra/bankapp:v12
   replicas: 2
   service:
     type: LoadBalancer          
@@ -32,3 +31,9 @@ bankapp:
     limits:
       memory: 500Mi
       cpu: 500m
+
+image:
+  repository: 1mahendra/bankapp
+  tag: v12
+  pullPolicy: IfNotPresent
+      
